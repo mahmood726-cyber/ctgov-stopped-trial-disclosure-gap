@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Stopped-Trial Disclosure Gap",
+  "slug": "ctgov-stopped-trial-disclosure-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-stopped-trial-disclosure-gap",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across final-status groups among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how withdrawn, suspended, and terminated studies remain structurally quieter than completed CT.gov trials.",
+  "body": "How much worse do stopped trials look on ClinicalTrials.gov than completed trials once older closed interventional studies are grouped by final status? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and isolated completed, terminated, withdrawn, and suspended records. The project compares two-year no-results rates, ghost-protocol rates, visible shares, and reason-missing contrasts across final statuses and stopped-study subgroups. Withdrawn studies reach a 100.0 percent no-results rate and an 81.9 percent ghost-protocol rate. Suspended studies reach 99.3 percent no results, terminated studies 58.3 percent, and stopped studies with missing termination reasons rise to 82.1 percent no results. Stopping a trial does not merely change status; it sharply deepens the risk that the public record stays silent or structurally thin. Especially when reason fields are already absent and final statuses are not completed. Final-status labels and missing reason fields are registry entries and do not adjudicate operational history or legal reporting obligations.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much worse do stopped trials look on ClinicalTrials.gov than completed trials once older closed interventional studies are grouped by final status?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and isolated completed, terminated, withdrawn, and suspended records."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, visible shares, and reason-missing contrasts across final statuses and stopped-study subgroups."
+    },
+    {
+      "role": "Primary result",
+      "text": "Withdrawn studies reach a 100.0 percent no-results rate and an 81.9 percent ghost-protocol rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Suspended studies reach 99.3 percent no results, terminated studies 58.3 percent, and stopped studies with missing termination reasons rise to 82.1 percent no results."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Stopping a trial does not merely change status; it sharply deepens the risk that the public record stays silent or structurally thin. Especially when reason fields are already absent and final statuses are not completed."
+    },
+    {
+      "role": "Boundary",
+      "text": "Final-status labels and missing reason fields are registry entries and do not adjudicate operational history or legal reporting obligations."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Stopped-Trial Disclosure Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by final status and stopped-study reason fields",
+    "code": "https://github.com/mahmood726-cyber/ctgov-stopped-trial-disclosure-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
