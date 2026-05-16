@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Stopped-Trial Disclosure Gap",
+  "slug": "ctgov-stopped-trial-disclosure-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How much worse do stopped trials look on ClinicalTrials.gov than completed trials once older closed interventional studies are grouped by final status? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and isolated completed, terminated, withdrawn, and suspended records. The project compares two-year no-results rates, ghost-protocol rates, visible shares, and reason-missing contrasts across final statuses and stopped-study subgroups. Withdrawn studies reach a 100.0 percent no-results rate and an 81.9 percent ghost-protocol rate. Suspended studies reach 99.3 percent no results, terminated studies 58.3 percent, and stopped studies with missing termination reasons rise to 82.1 percent no results. Stopping a trial does not merely change status; it sharply deepens the risk that the public record stays silent or structurally thin. Especially when reason fields are already absent and final statuses are not completed. Final-status labels and missing reason fields are registry entries and do not adjudicate operational history or legal reporting obligations.",
+  "word_count": 156,
+  "sentence_count": 8,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much worse do stopped trials look on ClinicalTrials.gov than completed trials once older closed interventional studies are grouped by final status?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and isolated completed, terminated, withdrawn, and suspended records."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, visible shares, and reason-missing contrasts across final statuses and stopped-study subgroups."
+    },
+    {
+      "role": "Primary result",
+      "text": "Withdrawn studies reach a 100.0 percent no-results rate and an 81.9 percent ghost-protocol rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Suspended studies reach 99.3 percent no results, terminated studies 58.3 percent, and stopped studies with missing termination reasons rise to 82.1 percent no results."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Stopping a trial does not merely change status; it sharply deepens the risk that the public record stays silent or structurally thin. Especially when reason fields are already absent and final statuses are not completed."
+    },
+    {
+      "role": "Boundary",
+      "text": "Final-status labels and missing reason fields are registry entries and do not adjudicate operational history or legal reporting obligations."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Stopped-Trial Disclosure Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by final status and stopped-study reason fields",
+    "code": "https://github.com/mahmood726-cyber/ctgov-stopped-trial-disclosure-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across final-status groups among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": false,
+        "detail": "Found 8 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
